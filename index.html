@@ -1,0 +1,152 @@
+<!DOCTYPE html><html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ЄБУД — будівельний магазин у Києві. Сантехніка, електрика, монтажні матеріали. Доставка, знижки, консультації.">
+  <title>ЄБУД — будівельний магазин</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: sans-serif; color: #222; background: #fff; }
+    header {
+      position: relative;
+      height: 100vh;
+      background: linear-gradient(rgba(245,245,245,0.85), rgba(245,245,245,0.85)), url('./icons/bcgrnd.jpg') no-repeat center/cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    header h1 { font-size: 3rem; margin-bottom: 1rem; }
+    header p { font-size: 1.2rem; margin-bottom: 2rem; }
+    .btn-group a {
+      display: inline-block;
+      margin: 0 0.5rem;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      background: #444;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    section h2 { font-size: 2rem; margin-bottom: 1.5rem; }
+    .features, .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+    }
+    .features div, .products div {
+      background: #f7f7f7;
+      padding: 1.2rem;
+      border-radius: 8px;
+      text-align: center;
+    }
+    footer {
+      background: #f0f0f0;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+    h2{
+        text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+    .fot{
+        text-align: center;
+        padding: 1rem;
+        font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ЄБУД</h1>
+    <p>Будівельний магазин — сантехніка, електрика, монтажні матеріали</p>
+    <div class="btn-group">
+      <a href="+380976750445">Зателефонувати</a>
+      <a href="https://maps.app.goo.gl/fEGppq7KuijEaUYaA">Прокласти маршрут</a>
+      <a href="https://g.page/r/CcnVe9ECCywvEAI/review">Залишити відгук</a>
+    </div>
+  </header>  <section>
+    <h2>Про нас</h2>
+    <p>Ми — магазин будівельних матеріалів для тих, хто хоче зробити все якісно та без зайвих нервів. 
+        Усе в наявності або під замовлення: труби, фітинги, кабель, автомати, герметики, бойлери, інструмент. 
+        Працюємо з майстрами, бригадами й усіма, хто ремонтує в Києві. 
+        Поради даємо, знижки даємо, доставляємо швидко.</p>
+  </section>  <section>
+    <h2>Асортимент</h2>
+    <div class="products">
+      <div>Труби та фітинги
+        <div>
+            <img src="icons/pipe.png" alt="Труби та фітинги" width="48" height="48">
+        </div>
+      </div>
+      <div>Електрика
+        <div>
+            <img src="icons/outlet.png" alt="Електрика" width="48" height="48">
+        </div>
+        </div>
+      <div>Кабель
+        <div>
+            <img src="icons/wire.png" alt="Кабель" width="48" height="48">
+        </div>
+        </div>
+      <div>Герметики та піна
+        <div>
+            <img src="icons/sealant-gun.png" alt="Герметики та піна" width="48" height="48">
+        </div>
+        </div>
+      <div>Бойлери
+        <div>
+            <img src="icons/wire.png" alt="Бойлери" width="48" height="48">
+        </div>
+        </div>
+      <div>Інструменти
+        <div>
+            <img src="icons/tools.png" alt="Інструменти" width="48" height="48">
+        </div>
+        </div>
+      <div>Автомати, щити
+        <div>
+            <img src="icons/wire.png" alt="Кабель" width="48" height="48">
+        </div>
+        </div>
+      <div>Сифони, крани
+        <div>
+            <img src="icons/siphon.png" alt="Сифони" width="48" height="48">
+        </div>
+        </div>
+        <div>Чистова сантехніка
+        <div>
+            <img src="icons/bathtub.png" alt="Сифони" width="48" height="48">
+        </div>
+        </div>
+    </div>
+  </section>  <section>
+    <h2>Наші переваги</h2>
+    <div class="features">
+      <div><strong>Все в наявності</strong><br> Все що треба для ремонту - на полицях: труби, кабель, автомати,
+    герметики, крани. Прийшов - купив - встановив.</div>
+      <div><strong>Привеземо хоч чорта лисого!</strong><br> Ми працюємо з десятками постачальників - 
+    якщо чогось нема на полицях, ми замовимо та привеземо. Скажи що треба, і ми знайдемо!</div>
+      <div><strong>Консультації</strong><br>Питаєш - відповідаємо! Ми не просто продаємо, а підказуємо: що підійде, 
+        як встановити та не зробити дурню. Це особливо важливо, коли ремонт - своїми руками.</div>
+    </div>
+  </section>  <section class="fot">
+    <h2>Контакти</h2>
+    <p>Адреса: вул. Олександра Олеся, 10А, Київ</p>
+    <p>Телефон: <a href="tel:+380976750445">+380 97 675 0445</a></p>
+    <p>Графік роботи: щодня 08:00–18:00</p>
+  </section>  <footer>
+    © 2025 ЄБУД. Створено з любов’ю до ремонту.
+  </footer>
+</body>
+</html>
